@@ -17,3 +17,9 @@ The code measures the time to execute each method while calling them 100000 time
 
 3. Heap Array Allocation:  
    Heap allocation is the slowest (12.7824 seconds) among them because each call to `malloc` must search for sufficient memory space in the heap, and each call to `free` must return that memory to the system. This feature adds substantial overhead compared to stack and static allocations. The heap is also prone to fragmentation, that is what could further degrade performance over repeated allocations and deallocations.
+
+For Task #1
+1. https://craftofcoding.wordpress.com/2015/12/07/memory-in-c-the-stack-the-heap-and-static/
+2. https://www.geeksforgeeks.org/difference-between-stack-allocated-and-heap-allocated-arrays/
+3. https://www.geeksforgeeks.org/difference-between-static-arrays-and-dynamic-arrays/
+4. https://medium.com/@musheikh47/heap-array-vs-stack-array-58a872bb7508
